@@ -1,0 +1,1 @@
+ # self.total += num*self.digits[x]
