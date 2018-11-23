@@ -1,4 +1,4 @@
-## banksNuban
+## BankNuban
 Nuban algorithm implementation in #dart, #python  and  #javascript 
 
 
