@@ -4,7 +4,7 @@ Nuban algorithm implementation
 
 ### IMPLEMENTATION MODALITY
 
-CHECK DIGIT ALGORITHM The approved NUBAN format  ABC-DEFGHIJKL-M where ABC is the 3- digit bank code assigned by the CBN DEFGHIJKL is the NUBAN Account serial number M is the NUBAN Check Digit, required for account number validation
+CHECK DIGIT ALGORITHM. The approved NUBAN format  ABC-DEFGHIJKL-M where ABC is the 3- digit bank code assigned by the CBN DEFGHIJKL is the NUBAN Account serial number M is the NUBAN Check Digit, required for account number validation
 
 ## Check Digit Algorithm
 ## Step 1. 
@@ -43,6 +43,6 @@ Module 10 of 81 is 1
 i.e. 1 is the remainder when you divide 81 by 10 
 #### Step 3. 
 Subtract 1 from 10 to get  Check Digit 9
-#
+
 Therefore the NUBAN code for this example account is 0000014579 
 
