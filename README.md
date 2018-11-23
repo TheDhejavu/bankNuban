@@ -1,5 +1,5 @@
 ## banksNuban
-Nuban algorithm implementation in < dart >, < python > and < javascript >
+Nuban algorithm implementation in #dart, #python  and  #javascript 
 
 
 ### IMPLEMENTATION MODALITY
