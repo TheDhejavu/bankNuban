@@ -16,7 +16,7 @@ Subtract your result from 10 to get the Check Digit
 ## Step 4. 
 If your result is 10, then use 0 as your check digit
 
-## The Table below shows the 3 digit codes of all banks.
+## The Table below shows the 3 digit codes of some banks.
 
 S/N| BANK| CODE | 
 --- | --- | --- | 
@@ -40,6 +40,9 @@ The 3-digit code assigned to First Bank in the Bankers Clearing System is 011 As
 0*3+1*7+1*3+0*3+0*7+0*3+0*3+0*7+1*3+4*3+5*7+7*3= 81
 #### Step 2.
 Module 10 of 81 is 1
-i.e. 1 is the remainder when you divide 81 by 10 Step3. Subtract 1 from 10 to get  Check Digit 9
+i.e. 1 is the remainder when you divide 81 by 10 
+#### Step 3. 
+Subtract 1 from 10 to get  Check Digit 9
+#
 Therefore the NUBAN code for this example account is 0000014579 
 
