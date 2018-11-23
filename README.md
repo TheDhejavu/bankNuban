@@ -18,72 +18,26 @@ If your result is 10, then use 0 as your check digit
 
 # The Table below shows the 3 digit codes of all banks.
 
-2
-BANK
-3
--
-Digit 
-Code
-BANK
-3
--
-Digit 
-Code
-BANK
-3
--
-Digit 
-Code
-1.Access Bank
-044
-9. Fidelity Bank
-070
-17. St
-anbicIBTC
-221
-2. Afribank
-014
-10. Finbank
-085
-18. Standard Chartered Bank
-068
-3. Citibank
-023
-11. Guaranty Trust Bank
-058
-19. Sterling Bank
-232
-4. Diamond Bank
-063
-12. Intercontinental Bank
-069
-20. United Bank for Africa
-033
-5. Ecobank
-050
-13. Oceanic 
-Bank
-056
-21. Union Bank
-032
-6. Equitorial Trust Bank
-040
-14. BankPhb
-082
-22. Wema bank
-035
-7. First Bank
-011
-15. 
-Skye
-Bank
-076
-23. Zenith Bank
-057
-8. F
-CMB
-214
-16. SpringBank
-084
-24. Unity bank
-215
+S/N| BANK| CODE | 
+--- | --- | --- | 
+1 | Access bank| 044 |
+2 | fidelity Bank| 070 |
+3 | StanbicIBTC| 221 |
+4 | Afribank| 014 |
+5 | Finbank| 085 |
+6 | Guaranty Trust Bank| 058 |
+7 | Diamond Bank | 063 |
+8 | United Bank for Africa | 033 |
+9 | Ecobank| 050 |
+10 | Union Bank| 032 |
+
+### Example 1: 
+The NUBAN code of a typical customer bank 
+account in First Bank of Nigeria Plc would be derived as follows:
+The 3-digit code assigned to First Bank in the Bankers Clearing System is 011 Assume a NUBAN serial number of 000001457 The check digit would be computed as follows:
+
+Step 1. 0*3+1*7+1*3+0*3+0*7+0*3+0*3+0*7+1*3+4*3+5*7+7*3= 81
+Step 2. Module 10 of 81 is 1
+i.e. 1 is the remainder when you divide 81 by 10 Step3. Subtract 1 from 10 to get  Check Digit 9
+Therefore the NUBAN code for this example account is 0000014579 
+
